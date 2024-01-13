@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vikroryia Klimuk</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+<body>
+	<section class="background1" id="beginning">
+		<section class="feed">
+			<div class="navbar">
+				<a href="index.html" class="hvr-sweep-to-bottom" >Home</a>
+				<a href="#bottom" class="hvr-sweep-to-bottom">To End</a>
+				<ul class="social-icons">
+					<li><a class="social-icon-vk" href="https://m.vk.com/hey_govno" title="vk" target="_blank" rel="noopener"></a></li>
+					<li><a class="social-icon-telegram" href="https://t.me/vichkaspichkka" title="telegram" target="_blank" rel="noopener"></a></li>
+					<li><a class="social-icon-instagram" href="https://www.instagram.com/beautifulviii/" title="instagram" target="_blank" rel="noopener"></a></li>
+				</ul>
+			</div>
+			<div class="hvr-grow-rotate">
+				<div class="header">
+					<h4><a href="bio.html"><u>This Website was made by Vikroryia Klimuk</u></a></h4>
+				</div>
+			</div>
+			<div class="feedContent">
+    <h2>Car Rental</h2>
+    <label for="carSelection">Select a Car:</label>
+    <select id="carSelection" name="carSelection">
+        <option value="MercedesMaybachS680">Mercedes Maybach S680</option>
+        <option value="AudiR8CoupéV10GTRWD">Audi R8 Coupé V10 GT RWD</option>
+        <option value="BMWRadu3Sedan">BMW Radu 3 Sedan</option>
+        <option value="MercedesBenzCClassC300">Mercedes-Benz C-Class C300</option>
+        <option value="Tatra148">Tatra 148</option>
+    </select>
+    
+    <table class="rental-table">
+        <thead>
+            <tr>
+                <th>Car</th>
+                <th>Price per Day</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mercedes Maybach s680</td>
+                <td>$450</td>
+            </tr>
+            <tr>
+                <td>Audi R8 Coupé V10 GT RWD</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>BMW Radu 3 Sedan</td>
+                <td>$350</td>
+            </tr>
+            <tr>
+                <td>Mercedes-Benz C-Class C300</td>
+                <td>$400</td>
+            </tr>
+            <tr>
+                <td>Tatra 148</td>
+                <td>$0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Rental Form -->
+    <form class="rental-form">
+        <h3>Enter Your Information</h3>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+        <label for="rentalDuration">Rental Duration (in days):</label>
+		<input type="number" id="rentalDuration" name="rentalDuration" required min="0">
+
+
+        <h3>Enter Credit Card Information</h3>
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" required>
+
+        <label for="expirationDate">Expiration Date:</label>
+        <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YY" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+
+        <button type="submit">Rent Now</button>
+    </form>
+</div>
+
+
+			<div id="bottom" class="footer">  
+
+				<a href="#beginning">
+
+
+					<h2>To Top</h2>
+				</a>
+			</div>
+
+		</section>
+
+	</section>
+
+</body>
+</html>
